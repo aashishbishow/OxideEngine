@@ -1,0 +1,12 @@
+[package]
+name = "oxide-engine"
+version = "0.1.0"
+aurthors ["Aashish BishowKarma aashishbishowkarma@outlook.com"]
+edition = "2024"
+
+description = "A backend framework for web applications"
+license = "MIT"
+license-file = "LICENSE"
+
+
+[dependencies]
