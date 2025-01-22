@@ -2,11 +2,38 @@
 name = "oxide-engine"
 version = "0.1.0"
 aurthors ["Aashish BishowKarma aashishbishowkarma@outlook.com"]
-edition = "2024"
-
 description = "A backend framework for web applications"
 license = "MIT"
 license-file = "LICENSE"
-
+readme = "README.md"
+keywords = ["web", "framework", "SSR", "SSG", "CSR", "backend"]
+categories = ["web-programming", "asynchronous", "development-tools"]
+homepage = https://github.com/aashishbishow/OxideEngine.git
+repository = https://github.com/aashishbishow/OxideEngine.git
+edition = "2024"
 
 [dependencies]
+hyper = "1.5.2"
+tokio = "1.43.0"
+clap = "4.5.27"
+sqlx = "0.8.3"
+tower = "0.5.2"
+serde = "1.0.217"
+serde_jason = "1.0.137"
+tera = "1.20.0"
+dotenvy = "0.15.7"
+reqwest = "0.12.12"
+jwts = "0.5.1"
+tokio-tungstenite = "0.26.1"
+routerify = "3.0.0"
+gloo " 0.11.0"
+governor = "0.8.0"
+tracing = "0.1.41"
+prometheus = "0.13.4"
+async-std = "1.13.0"
+cron = "0.15.0"
+tokio-util = "0.7.13"
+aws-sdk-rust = "0.1.42"
+
+[dev-dependencies]
+mockall = "0.13.1"
